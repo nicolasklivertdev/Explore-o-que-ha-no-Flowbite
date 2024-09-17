@@ -1,0 +1,154 @@
+* {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: white;
+}
+
+svg, img, .figma, .hugo, .webpack {
+    height: auto;
+}
+
+svg {
+    margin-left: 4px;
+    width: 14px;
+}
+
+img {
+    margin-bottom: 20px;
+    width: 32px;
+}
+
+.figma {
+    width: 16px;
+}
+
+.hugo {
+    width: 20px;
+}
+
+.webpack {
+    width: 28px;
+}
+
+a {
+    margin-right: 4px;
+    pointer-events: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+body {
+    background-color: rgb(31, 42, 56);
+}
+
+.container {
+    margin: auto;
+    max-width: 1263px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 16px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 16px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+header h2 {
+    margin-bottom: 96px;
+    padding: 0 224px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(157, 164, 176);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.pg1, .pg2, .pg3, .pg4, .pg5 {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.pg1, .pg2, .pg3, .pg4 {
+    margin-bottom: 2rem;
+}
+
+.pages {
+    margin-bottom: 12px;
+    padding: 20px;
+    border-radius: .5rem;
+}
+
+.pages:hover {
+    cursor: pointer;
+    background-color: rgb(55, 65, 82);
+}
+
+.pages h1 {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.pages p {
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 563.5px;
+    color: rgb(157, 164, 176);
+}
+
+.link1 {
+    color: rgb(62, 130, 247);
+}
+
+.link2 {
+    color: rgb(146, 97, 250);
+}
+
+.link3 {
+    color: rgb(7, 150, 163);
+}
+
+.link4 {
+    color: rgb(7, 150, 163);
+}
+
+.link5 {
+    color: rgb(14, 163, 232);
+}
+
+.link6 {
+    color: rgb(14, 158, 110);
+}
+
+.link7 {
+    color: rgb(62, 130, 247);
+}
+
+.link8 {
+    color: rgb(232, 70, 148);
+}
+
+.link9 {
+    color: rgb(62, 130, 247);
+}
