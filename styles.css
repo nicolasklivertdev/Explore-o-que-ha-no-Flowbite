@@ -26,7 +26,7 @@ img {
 }
 
 .hugo {
-    width: 20px;
+    width: 22px;
 }
 
 .webpack {
@@ -46,7 +46,7 @@ body {
 
 .container {
     margin: auto;
-    max-width: 1263px;
+    max-width: 1440px;
 }
 
 .content {
@@ -151,4 +151,165 @@ section {
 
 .link9 {
     color: rgb(62, 130, 247);
+}
+
+@media screen and (max-width: 1252px) {
+    header h1 {
+        padding: 0 256px;
+    }
+    
+    header h2 {
+        padding: 0 239px;
+    }
+
+    section {
+        width: auto;
+    }
+
+    .pg1, .pg2, .pg3, .pg4, .pg5 {
+        flex-shrink: 0;
+        width: auto;
+    }
+
+    .pages {
+        flex-shrink: 0;
+        max-width: 45%;
+        width: auto;
+    }
+
+    .pages p {
+        max-width: 100%;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1242px) {
+    header h1 {
+        padding: 0 256px;
+    }
+    
+    header h2 {
+        padding: 0 224px;
+    }
+}
+
+@media screen and (max-width: 1022px) {
+    .content {
+        align-items: flex-start;
+        padding: 32px 16px;
+        padding-bottom: 25px;
+    }
+    
+    header {
+        align-items: flex-start;
+        text-align: left;
+        padding: 0;
+    }
+    
+    header h1 {
+        margin-bottom: 16px;
+        padding: 0;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    header h2 {
+        margin-bottom: 40px;
+        padding: 0;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    section {
+        width: auto;
+    }
+    
+    .pg1, .pg2, .pg3, .pg4, .pg5 {
+        flex-shrink: 0;
+        width: auto;
+    }
+
+    .pg1, .pg2, .pg3, .pg4 {
+        margin-bottom: 1rem;
+    }
+
+    .pages {
+        margin-bottom: 12px;
+        padding: 12px;
+        width: auto;
+    }
+
+    .pages h1 {
+        margin-bottom: 8px;
+        font-size: 20px;
+    }
+    
+    .pages p {
+        font-size: 16px;
+        line-height: 24px;
+        width: auto;
+    }
+
+    .pages div {
+        display: flex;
+        align-items: center;
+    }
+
+    img {
+        margin-bottom: 15px;
+    }
+
+    svg {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .content {
+        align-items: flex-start;
+        padding: 32px 18px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+    
+    header h2 {
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    section {
+        width: auto;
+    }
+
+    .pg1, .pg2, .pg3, .pg4, .pg5 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 1440px;
+        width: auto;
+    }
+
+    .pages {
+        padding: 15px;
+        max-width: 1440px;
+        width: auto;
+    }
+
+    .pages h1 {
+        margin-bottom: 8px;
+        font-size: 22px;
+    }
+
+    .pages p {
+        font-size: 18px;
+        line-height: 26px;
+        max-width: 1440px;
+        width: auto;
+    }
+    
+    a {
+        font-size: 18px;
+    }
 }
